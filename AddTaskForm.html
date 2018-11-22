@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <h1 class="Title_Task">Новая заявка</h1>
+    <div class="form_add_task">
+        <form method="POST" class="post-form">{% csrf_token %}
+            <p><div class="AuthorTask"><div class="label_form">{{ form.AuthorTask.label_tag }}</div> <div class="input_form">{{form.AuthorTask}}</div></div></p>
+            <p><div class="DescriptionTask"><div class="label_form">{{ form.DescriptionTask.label_tag }}</div> <div class="input_form">{{form.DescriptionTask}}</div></div></p>
+            <p><div class="NumberRoom"><div class="label_form">{{ form.NumberRoom.label_tag }}</div> <div class="input_form">{{form.NumberRoom}}</div></div></p>
+            <p><div class="NumberComputer"><div class="label_form">{{ form.NumberComputer.label_tag }}</div> <div class="input_form">{{form.NumberComputer}}</div></div></p>
+            <p><div class="save_btn"><button type="submit" class="save btn btn-default">Отправить</button></div></p>
+        </form>
+    </div>
+{%endblock%}

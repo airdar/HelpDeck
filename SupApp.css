@@ -1,0 +1,103 @@
+html, body{
+    height: 100%;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+}
+.header{
+    background-color: #122c34;
+    height: 80px;
+}
+.logo-name{
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+.login{
+    float: right;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.login_btn{
+    width: 100px;
+}
+.logo_txt{
+    font-size: 28px;
+}
+.content{
+    padding-bottom: 80px;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 80px;
+    background-color: #122c34;
+}
+
+.footer_txt{
+    margin-top: 30px;
+}
+
+.Title_Task{
+    text-align: center;
+}
+.form_add_task{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+.label_form{
+    float: left;
+    width: 150px;
+}
+input{
+    width: 300px;
+    border: none;
+    border-bottom: rgba(184, 182, 190, 0.97) solid;
+    border-width: 1px;
+}
+.save_btn{
+    text-align: center;
+    margin-top:20px;
+}
+.form_login{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+}
+.login_auth{
+    width: 100px;
+    margin-left:200px;
+}
+.Task_list{
+    text-align: center;
+}
+.Task{
+    width: 800px;
+    margin: 0 auto;
+    border:solid 1px #cecece;
+    margin-bottom: 10px;
+}
+.LabelTask{
+    float:left;
+    margin-right: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.ValueTask{
+    margin-left: 15px;
+    margin-right: 15px;
+    word-wrap: break-word;
+}
+.Report_div{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

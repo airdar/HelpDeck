@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1 class="Task_list">Список задач</h1>
+{% for Task in Tasks %}
+<div class="Task">
+    <p><div class="LabelTask">Статус: </div><div class="ValueTask">{{ Task.DateTimeTask }}</div></p>
+    <p><div class="LabelTask">Статус: </div><div class="ValueTask">{{ Task.StatusTask }}</div></p>
+    <p><div class="LabelTask">Статус: </div><div class="ValueTask">{{ Task.id }}</div></p>
+    <p><div class="LabelTask">Задача: </div><div class="ValueTask">{{ Task.NameTask }}</div></p>
+    <p><div class="LabelTask">Описание: </div><div class="ValueTask">{{ Task.DescriptionTask }}</div></p>
+</div>
+{% endfor%}
+{%endblock%}
